@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@questlabs/react-sdk/dist/style.css";
+
+.feedback-btn-div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    right:20px;
+    background-color: black;
+    color: white;
+    border-radius: 6px 6px 0px 0px;
+    transform: translateX(50%) translateY(-50%) rotate(-90deg); 
+    padding: 8px 14px 8px 11px;
+    gap: 8px;
+    background-color: #019F7F;
+    cursor: pointer;
+}
+
+.feedback-btn-div>.feedback-btn-content{
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+}
+
+.feedback-btn-div>.arrow-icon{
+    transform: rotate(90deg);
+    // border: 1px solid red;
+}
+
+.feedback-btn-div>.arrow-icon>img{
+    width: 14px;
+    height: 14px;
+}
+
+
+// *******************
+
+.landing-img{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.landing-img>img{
+    height: 100%;
+    width: 100%;
+
+}
